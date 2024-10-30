@@ -1,0 +1,30 @@
+super + v
+	$TERMINAL -e vim-x11
+
+super + d
+	dmenu_run
+
+super + w
+	$BROWSER
+
+super + {equal, minus, BackSpace}
+ 	/home/void/.scripts/volume.sh {up, down, toggle}
+
+super + shift + BackSpace
+	/home/void/.scripts/exit.sh 
+
+super + f
+	$TERMINAL -e nnn -Rr
+
+super + o
+  zathura
+
+Print 
+	 maim ~/Pictures/$(date +%s).png
+
+super + Print 
+	maim -s ~/Pictures/$(date +%s).png
+
+super + p 
+	mpv $(xclip -o)
+

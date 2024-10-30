@@ -1,0 +1,13 @@
+---@type ChadrcConfig
+local M = {}
+
+M.ui = { theme = 'nord' }
+M.plugins = 'custom.plugins'
+
+require('custom.mappings')
+
+vim.o.guicursor = 'n-v-c:block,i:block'
+
+return M
+
+

@@ -1,0 +1,43 @@
+# Nord theme colors for Zathura
+
+set notification-error-bg       "#2e3440"     # background
+set notification-error-fg       "#bf616a"     # bright:red
+set notification-warning-bg     "#2e3440"     # background
+set notification-warning-fg     "#e5e9f0"     # bright:yellow
+set notification-bg             "#2e3440"     # background
+set notification-fg             "#a3be8c"     # bright:green
+
+set completion-bg               "#3b4252"     # background2
+set completion-fg               "#d8dee9"     # foreground
+set completion-group-bg         "#2e3440"     # background1
+set completion-group-fg         "#81a1c1"     # gray
+set completion-highlight-bg     "#88c0d0"     # bright:blue
+set completion-highlight-fg     "#3b4252"     # background2
+
+# Define the color in index mode
+set index-bg                    "#3b4252"     # background2
+set index-fg                    "#d8dee9"     # foreground
+set index-active-bg             "#88c0d0"     # bright:blue
+set index-active-fg             "#3b4252"     # background2
+
+set inputbar-bg                 "#2e3440"     # background
+set inputbar-fg                 "#d8dee9"     # foreground
+
+set statusbar-bg                "#3b4252"     # background2
+set statusbar-fg                "#d8dee9"     # foreground
+
+set highlight-color             "#e5e9f0"     # bright:yellow
+set highlight-active-color      "#d08770"     # bright:orange
+
+set default-bg                  "#2e3440"     # background
+set default-fg                  "#d8dee9"     # foreground
+set render-loading              true
+set render-loading-bg           "#2e3440"     # background
+set render-loading-fg           "#d8dee9"     # foreground
+
+# Recolor book content's color
+set recolor-lightcolor          "#2e3440"     # background
+set recolor-darkcolor           "#d8dee9"     # foreground
+set recolor                     "true"
+set recolor-keephue             "true"         # keep original hues
+
